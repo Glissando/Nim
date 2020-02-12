@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  background-color: gray;
+}
+
+.transition {
+  -webkit-clip-path: fill-box;
+          clip-path: fill-box;
+  width: 0%;
+  height: 0%;
+  background-color: lightblue;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

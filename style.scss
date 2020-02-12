@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+    background-color: gray;
+}
+
+.transition {
+    clip-path: fill-box;
+    width: 0%;
+    height: 0%;
+    background-color: lightblue;
+    transition: width 2s, height 2s;
+    margin: auto;
+}
